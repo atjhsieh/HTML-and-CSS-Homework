@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>HTML Homework</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        li {
+            display: inline;
+        }
+        li a {
+                display: block;
+                padding: 8px;
+        }
+
+        .container {
+            background-color:white;
+        }
+        .container2 {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <div class="containerMain">
+        <div class="container">
+            <div class="col-md-12">
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">Lattitude</a>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="HTML2.html">Data</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Comparison Page.html">Comparison</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Plots
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Max Temperature</a>
+                                    <a class="dropdown-item" href="#">Humidity</a>
+                                    <a class="dropdown-item" href="#">Cloudiness</a>
+                                    <a class="dropdown-item" href="#">Wind Speed</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+
+    <div class="container2">
+            <div class="col-md-8">
+                <div class="box">
+                    <h1>Summary: Lattitude vs. X</h1>
+                </div>
+                <div class="col-md-4">
+                    picture
+                </div>
+                <div class="col-md-8">
+                    <p1>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p1>
+                    <br><br />
+                    <p2>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at include: temperature, cloudiness, wind speed, and humidity. This site proves the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p2>
+                </div>
+            </div>
+        </div>
+            <div class="col-md-4">
+                <div class="box">
+                    <h2>Visualizations</h2>
+                </div>
+                <div class="col-md-6">
+                    picture
+                </div>
+                <div class="col-md-6">
+                    picture
+                </div>
+                <div class="col-md-6">
+                    picture
+                </div>
+                <div class="col-md-6">
+                    picture
+                </div>
+            </div>
+    </div>
+</body>
+</html>
